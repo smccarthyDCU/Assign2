@@ -27,6 +27,7 @@ public class EmailActivity extends AppCompatActivity {
 
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
+
     }
 
 
