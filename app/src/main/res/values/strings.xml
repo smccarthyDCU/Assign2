@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SDA Assign02-2023</string>
+    <string name="opencamera">Implicit Intent: Open Camera</string>
+    <string name="viewpicture">Implicit Intent: View Picture</string>
+    <string name="callactivity">Explicit Intent: Call an activity</string>
+    <string name="button">Send</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_emailactivity">Emailactivity</string>
+    <string name="placeholder_to">To</string>
+    <string name="placeholder_subject">Subject:</string>
+    <string name="placeholder_compose">Compose</string>
+    <string name="emailsavebutton">Save</string>
+
+</resources>
