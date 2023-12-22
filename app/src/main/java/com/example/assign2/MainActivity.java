@@ -28,13 +28,17 @@ public class MainActivity extends AppCompatActivity {
       Log.d(TAG, "Camera Opened");
     }
     //Create an implicit intent which opens the gallery
+    //(TechizVibe, 2020)
+
+    //( Programming Make Sense, 2022)
     public void implicitIntentGallary(View view) {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
         intent.setType("image/*");
         startActivity(intent);
         Log.d(TAG, "Gallery Opened");
     }
-    // //Create an explicit intent to open the emailActivity.java
+    //Create an explicit intent to open the emailActivity.java
+    //(Oguntuga, 2017)
     public void EmailActivity(View view) {
         Intent intent = new Intent(this, EmailActivity.class);
         startActivity(intent);
