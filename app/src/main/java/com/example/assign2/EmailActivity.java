@@ -23,10 +23,10 @@ public class EmailActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MainActivity.class);
         EditText To = (EditText) findViewById(R.id.editTextText4);
         EditText Subject = (EditText) findViewById(R.id.editTextText3);
-        EditText compose = (EditText) findViewById(R.id.textView7);
+     //   EditText compose = (EditText) findViewById(R.idview.);
 
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+     //   String message = editText.getText().toString();
+     //   intent.putExtra(EXTRA_MESSAGE, message);
 
     }
 
